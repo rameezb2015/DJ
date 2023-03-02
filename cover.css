@@ -1,0 +1,11 @@
+
+.cover{
+    background-image: url('image/cover.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    
+} 
+
