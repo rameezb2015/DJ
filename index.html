@@ -12,26 +12,32 @@
   <body>
 
 
-    <header class="header">
+    <header class="header active">
         <img src="image/logo.png" alt="logo" class="logo">
         <nav class="navbar">
             <ul class="navbar-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="navbar-link" href="#">Home</a></li>
+                <li><a class="navbar-link" href="#">About</a></li>
+                <li><a class="navbar-link" href="#">Events</a></li>
+                <li><a class="navbar-link" href="#">Contact</a></li>
             </ul>
         </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
     </header>
     
+
   
 
-    <!-- <div class="cover"> 
+    <div class="cover"> 
         <div class="head">
+            <img src="image/cover.png" alt="" class="banner">
             <h1>Truss Light & D.J. Sound</h1>
-            <img src="image/event-m.png" alt="" width="37%">
+            <img src="image/event-m.png" alt="" class="events">
         </div>  
-    </div> -->
+    </div>
 
 
 
@@ -151,5 +157,9 @@
 
     </div>
      -->
-  </body>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
 </html>
