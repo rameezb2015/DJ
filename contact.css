@@ -1,0 +1,99 @@
+.contact{
+    height: 350px;
+}
+
+.contact-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 50px;
+   
+}
+.contact-main{
+    display: flex;
+    
+    padding-top: 50px;
+    justify-content: space-around;
+
+}
+
+.contact-logo{
+    padding-left: 100px;
+}
+.contact-detail{
+    padding-right: 100px ;
+}
+
+
+.contact-logo h1{
+    color: white;
+    text-align: center;
+    /* font-weight: lighter; */
+}
+.contact-logo p{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.contact-detail p{
+    color: white;
+    /* font-weight:bold; */
+    font-size: large;
+    padding-left: 10px;
+    
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.map{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.contact-detail img{
+    width: 25px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 512px) {
+    .contact{
+        height: 400px;
+    }
+    .contact-title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        margin-top: 50px;
+       
+    }
+
+    .contact-main{
+        display: flex;
+        padding-top: 20px;
+        flex-direction:column-reverse;
+    
+    }
+    .contact-logo{
+       padding: 50px;
+    }
+    .contact-detail{
+        padding:0 50px;
+
+    }
+    
+
+}
