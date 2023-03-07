@@ -1,0 +1,55 @@
+.about{
+   
+    height: 600px;
+}
+.about-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 100px;
+   
+}
+
+.about-cover{
+    border: 2px solid white;
+    height: 403px;
+    width: 403px;
+    float: left;
+    margin: 50px 70px;
+    object-fit: cover;
+}
+.lorem{
+    text-align: justify;
+    margin: 50px 150px 0 5px ;
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 512px) {
+    .about-title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        margin-top: 10px;
+       
+    }
+
+    .about-cover{
+        border: 2px solid white;
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
+        object-fit: cover;
+    }
+    .lorem{
+        text-align: justify;
+        margin: 0 30px;
+        color: white;
+    }
+   
+        
+     }
