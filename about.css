@@ -33,17 +33,21 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 200px;
+        width: 250px;
         margin-top: 10px;
        
     }
 
     .about-cover{
+        
+        position: relative;
+        right: 30px;
         border: 2px solid white;
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
         margin-top: 20px;
         object-fit: cover;
+        
     }
     .lorem{
         text-align: justify;
