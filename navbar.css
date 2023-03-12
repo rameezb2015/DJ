@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -54,11 +58,19 @@ body{
   display: none;
   background:transparent;
   cursor: pointer;
+  z-index: 999;
 }
 .mobile-nav-icon[name="close-outline"]{
   display: none;
 }
 
+.hidden {
+  display: none;
+}
+
+.marginAbout {
+  margin-top: 56rem !important;
+}
 
 /* Mobile css start */
 
@@ -94,7 +106,7 @@ body{
     /* tranisition progress */
 
     transform: translateX(100%);
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 
     opacity: 0;
     visibility: hidden;
@@ -109,12 +121,17 @@ body{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 900;
+    height: 100vh;
+    width: 100vw;
   }
   .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"]{
     display: block;
+    z-index: 999;
   }
   .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"]{
     display: none;
+    z-index: 999;
   }
 }
 
