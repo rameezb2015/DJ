@@ -1,4 +1,33 @@
+<<<<<<< HEAD
 .nav-bar{
+=======
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+html{
+  overflow-x: hidden;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+body{
+  overflow: hidden;
+}
+.header{
+  padding: 0 4.8rem;
+  height: 15rem;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+>>>>>>> demo
   background-color: #020111; 
   color: #fff;
   padding: 20px;
@@ -26,6 +55,7 @@ span{
   margin: 0 20px;
   font-size: 28px;
   cursor: pointer;
+<<<<<<< HEAD
   display: none;
 }
 
@@ -33,12 +63,96 @@ span{
   span
   {
       display: block;
+=======
+  z-index: 999;
+}
+.mobile-nav-icon[name="close-outline"]{
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.marginAbout {
+  margin-top: 56rem !important;
+}
+
+/* Mobile css start */
+
+/* 1em = 16px */
+
+@media(max-width: 62em){
+  .mobile-navbar-btn{
+    display: block;
+>>>>>>> demo
   }
   ul li{
       display: block;
   }
+<<<<<<< HEAD
   ul{
       display: none;
+=======
+  .header{
+    height: 13rem;
+    position: relative;
+  }
+ 
+  .navbar{
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    background-color: #020111;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* tranisition progress */
+
+    transform: translateX(100%);
+    transition: all 0.2s linear;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .navbar-list{
+    flex-direction: column;
+    align-items: center;
+  }
+  .active .navbar{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 900;
+    height: 100vh;
+    width: 100vw;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"]{
+    display: block;
+    z-index: 999;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"]{
+    display: none;
+    z-index: 999;
+  }
+}
+
+
+@media (max-width:35em) {
+  .header{
+    padding: 0 2.4rem;
+  }
+
+  .header .logo{
+    height: 25%;
+>>>>>>> demo
   }
 }
 
