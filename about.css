@@ -40,14 +40,19 @@
 
     .about-cover{
         
-        position: relative;
+        /* position: relative;
         right: 30px;
         border: 2px solid white;
         height: 300px;
         width: 300px;
         margin-top: 20px;
+        object-fit: cover; */
+        border: 2px solid white;
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 12%;
         object-fit: cover;
-        
     }
     .lorem{
         text-align: justify;
