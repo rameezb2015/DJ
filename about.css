@@ -15,17 +15,22 @@
     border: 2px solid white;
     height: 400px;
     width: 400px;
-    float: left;
-    margin: 60px 70px;
+    margin: 60px 70px 60px 100px;
     object-fit: cover;
 }
+
 .lorem{
     text-align: justify;
-    margin: 50px 150px 0 5px ;
+    margin: 55px 100px 25px 5px ;
     font-size:2em;
     color: white;
     
+} 
+.about-data{
+    display: flex;
 }
+
+
 
 
 @media only screen and (min-width: 200px) and (max-width: 512px) {
@@ -38,20 +43,28 @@
        
     }
 
-    .about-cover{
-        
-        width: 98%;
-        margin-top: 20px;
-        margin-left: 3;
-        object-fit: cover;
-        border: 2px solid white;
-        height: 300px;
+    .about-data{
+        display: block;
+        text-align: center;
     }
+
+     .about-cover{
+        
+       width: 300px;
+       height: 300px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 10px;
+      
+    }
+    
     .lorem{
         text-align: justify;
         margin: 0 30px;
         color: white;
-    }
+        margin-bottom: 500px;
+    } 
    
         
      }
