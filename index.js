@@ -11,4 +11,9 @@ const toggleNavbar = () => {
     about.classList.toggle("marginAbout")
 };
 
+manageMenuHide = () => {
+    nav_header.classList.toggle("active");
+    about.classList.remove("marginAbout")
+}
+
 mobile_nev.addEventListener("click", () => toggleNavbar());
