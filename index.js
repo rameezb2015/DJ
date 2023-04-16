@@ -17,3 +17,6 @@ manageMenuHide = () => {
 }
 
 mobile_nev.addEventListener("click", () => toggleNavbar());
+
+
+
