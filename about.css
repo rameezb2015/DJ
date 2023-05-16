@@ -17,17 +17,68 @@
     width: 400px;
     margin: 60px 70px 30px 100px;
     object-fit: cover;
+    float: left;
 }
 
-.lorem{
+/* .lorem{
     text-align: justify;
-    margin: 55px 100px 25px 5px ;
-    font-size:1.1em;
+    margin: 55px 20px 25px 5px ;
+    font-size:1.3em;
     color: white;
     
-} 
+}  */
+
+.lorem{
+    color: white;
+    padding-top: 65px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.lorem2{
+    color: white;
+    padding-top: 5px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.lorem3{
+    color: white;
+    padding-top: 5px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+    
+}
+
+.lorem4{
+    color: white;
+    padding-top: 5px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.lorem5{
+    color: white;
+    padding-top: 5px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.lorem6{
+    color: white;
+    padding-top: 5px;
+    padding-right: 70px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
 .about-data{
-    display: flex;
+    /* display: flex; */
 }
 
 
@@ -45,26 +96,63 @@
 
     .about-data{
         display: block;
+        /* margin-left: 14%; */
+        
         text-align: center;
     }
 
      .about-cover{
         
-       width: 300px;
-       height: 300px;
+       /* width: 300px; */
+       /* height: 300px; */
+       width: 80%;
+       height: 50%;
        display: block;
-       margin-left: auto;
-       margin-right: auto;
+       margin-left: 10%;
+       /* margin-left: 5%; */
+       /* margin-right: 15%; */
        margin-top: 20px;
       
     }
     
     .lorem{
         text-align: justify;
-        margin: 0 30px;
-        color: white;
-       
-    } 
-   
-        
-     }
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+    .lorem2{
+        text-align: justify;
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+    .lorem3{
+        text-align: justify;
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+    .lorem4{
+        text-align: justify;
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+    .lorem5{
+        text-align: justify;
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+    .lorem6{
+        text-align: justify;
+        margin-left: 16%;
+        margin-right: auto;
+    }
+
+
+    
+    
+
+}
