@@ -29,56 +29,15 @@
 }  */
 
 .lorem{
-    color: white;
-    padding-top: 65px;
-    padding-right: 70px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-.lorem2{
-    color: white;
-    padding-top: 5px;
-    padding-right: 70px;
-    font-size: 1.2em;
     text-align: justify;
 }
 
 .lorem3{
     color: white;
-    padding-top: 5px;
-    padding-right: 70px;
-    font-size: 1.2em;
-    text-align: justify;
     
-}
-
-.lorem4{
-    color: white;
-    padding-top: 5px;
-    padding-right: 70px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-.lorem5{
-    color: white;
-    padding-top: 5px;
-    padding-right: 70px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-.lorem6{
-    color: white;
-    padding-top: 5px;
-    padding-right: 70px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
+} 
 .about-data{
-    /* display: flex; */
+    display: flex;
 }
 
 
